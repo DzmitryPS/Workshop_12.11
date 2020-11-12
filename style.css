@@ -24,16 +24,13 @@ body {
 
 
 /* test css for js */
-.bg-red {
-    background-color: red;
-}
-
-.bg-blue {
-    background-color: blue;
+.bg-color {
+    background-color: rgb(228, 225, 225);
 }
 
 /* real CSS */
 #header-background {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,6 +44,7 @@ body {
     text-align: center; 
     position: relative; 
     padding: 0 10%;
+
 }
 
 header h1 {
@@ -147,6 +145,18 @@ header h1 {
      margin-top:71px;
  }
  
+ @media screen and (max-width: 960px) {
+     .middle-sect{
+         display: flex;
+         flex-wrap: wrap;
+    justify-content: center;
+    
+     }
+     
+      
+    }
+  
+  
 
 
 
