@@ -4,7 +4,7 @@ const pictureBtn = document.getElementById('btn-picture');
 const priceBtn = document.getElementById('btn-price');
 
 const docBody = document.getElementById('bg');
-const picture = document.getElementById('cats');
+const picture = document.getElementById('fashion');
 const currentPrice = document.getElementById('price');
 
 const pictureLinks = ['https://www.armani.com/cloud/armanif31wp/uploads/2020/10/Emporio_Armani_M_Evening.jpg', 'https://www.armani.com/cloud/armanif31wp/uploads/2020/10/Giorgio_Armani_M_Editorial_New_Formal.jpg'];
