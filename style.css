@@ -107,9 +107,6 @@ header h1 {
     grid template-rows: repeat(3, 1fr);
 }
 
-.deals-sect, .cloth-sect, .depart-sect, .welcome-sect {
-    border: 2px solid black;
-}
 
 .depart-sect img{
     height: 100px;
