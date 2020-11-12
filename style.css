@@ -34,10 +34,10 @@ body {
 
 /* real CSS */
 #header-background {
-    background-image: url("./src/header\ background.jpg");
+    background-image: url("https://wallpaperaccess.com/full/418596.jpg");
     background-repeat: no-repeat;
     background-image: center top;
-    height: 150px;
+    height: 100%;
     width: 100%;   
 }
 
