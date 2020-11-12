@@ -55,16 +55,14 @@ body {
     
 }
 
-.background-btn{
-    background-color: #FFB6C1;
-    border-radius: 10px;
-}
 
-.user-btn, .btn-7, .btn-price{
+
+.user-btn, .btn-price, .background-btn{
     background-color: #FFB6C1;
     border-radius: 10px;
     font-weight: bold;
     margin-top: 30px;
+    
 
 }
 
@@ -90,17 +88,38 @@ body {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 26px;
+    margin-bottom: 10px;
 }
-.btn-7, .btn-price{
-    margin-left: 180px;
 
-}
+
 .deals-sect{
+    justify-content: center;
+    text-align: center;
+}
+.cloth-sect{
+    text-align: center;
     justify-content: center;
 }
 
+.pict7, .pict8{
+    height: 250px;
+    width: 170px;
+}
 
-
+ .btn-7, .btn-prise {
+    background-color: #FFB6C1;
+    border-radius: 10px;
+    font-weight: bold;
+    display:block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    
+ }
+ .btn-7{
+     margin-top:71px;
+ }
+ 
 
 
 
