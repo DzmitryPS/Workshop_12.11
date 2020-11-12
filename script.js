@@ -1,3 +1,14 @@
+const bgcolorBtn = document.getElementById('btn-bgcolor');
+const userNameBtn = document.getElementById('btn-user-name');
+const pictureBtn = document.getElementById('btn-picture');
+const priceBtn = document.getElementById('btn-price');
+
+const docBody = document.getElementById('bg');
+const picture = document.getElementById('cats');
+const currentPrice = document.getElementById('price');
+
+const pictureLinks = ['https://d2ph5fj80uercy.cloudfront.net/06/cat1996.jpg', 'https://animalgiftclub-static.myshopblocks.com/images/2019/03/contain/256x256/f5c338bb82fe013b6e81b816f9d6e59f.jpg'];
+
 let startingPrice = 100;
 currentPrice.innerHTML = `${startingPrice} €`;
 
