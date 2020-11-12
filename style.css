@@ -24,12 +24,8 @@ body {
 
 
 /* test css for js */
-.bg-red {
-    background-color: red;
-}
-
-.bg-blue {
-    background-color: blue;
+.bg-color {
+    background-color: rgb(228, 225, 225);
 }
 
 /* real CSS */
