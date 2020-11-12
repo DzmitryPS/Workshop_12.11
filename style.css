@@ -23,7 +23,7 @@ body {
 
 
 
-/* test css for js */
+/* bg switching color css for js */
 .bg-color {
     background-color: rgb(228, 225, 225);
 }
@@ -61,6 +61,7 @@ header h1 {
     /* padding: 50px 20%; */
 }
 
+
 .color-overlay {
     position: absolute;
     width: 100%;
@@ -72,23 +73,27 @@ header h1 {
 
 
 
-
-.middle-sect{
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-    justify-content: center;
-    
+.middle-sect p {
+    color: var(--dark-violet);
 }
 
 
+.middle-sect{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.welcome-btns{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 .user-btn, .btn-price, .background-btn{
     background-color: #FFB6C1;
     border-radius: 10px;
     font-weight: bold;
     margin-top: 30px;
-    
-
 }
 
 .background-btn, .user-btn{
@@ -97,16 +102,19 @@ header h1 {
 }
 
 .ins-grid{
-    display:grid;
-    grid-template-columns: 70px 70px;
-    grid-template-rows:  1fr 1fr 1fr;
-    gap: 8px 35px;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid template-rows: repeat(3, 1fr);
 }
+
+.deals-sect, .cloth-sect, .depart-sect, .welcome-sect {
+    border: 2px solid black;
+}
+
 .depart-sect img{
-    height: 70;
-    width: 70px; 
-    
+    height: 100px;
+    width: 100px;
+    margin: auto; 
 }
 
 .middle-sect p {
@@ -114,8 +122,8 @@ header h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 26px;
     margin-bottom: 10px;
+    min-width: 300px;
 }
-
 
 .deals-sect{
     justify-content: center;
@@ -128,34 +136,21 @@ header h1 {
 
 .pict7, .pict8{
     height: 250px;
-    width: 170px;
+    width: 200px;
 }
 
- .btn-7, .btn-prise {
-    background-color: #FFB6C1;
-    border-radius: 10px;
-    font-weight: bold;
-    display:block;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    
- }
- .btn-7{
-     margin-top:71px;
+ .btn {
+     display: block; 
  }
  
- @media screen and (max-width: 960px) {
+ /* @media screen and (max-width: 960px) {
      .middle-sect{
          display: flex;
          flex-wrap: wrap;
-    justify-content: center;
-    
-     }
-     
-      
+        justify-content: center;
     }
-  
+}
+   */
   
 
 
