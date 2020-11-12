@@ -184,3 +184,23 @@ footer {
     padding: 18px;
     margin: 2px;
  } 
+
+ .btn {
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid var(--dark-violet);
+    color: var(--dark-violet);
+    font-size: 1rem;
+    font-weight: 400;
+    /* letter-spacing: 2px; */
+    width: 150px;
+    padding: 8px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+ }
+ 
+ .btn:hover {
+    background-color: var(--dark-violet);
+    color: var(--very-light-gray);
+ }
