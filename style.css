@@ -116,6 +116,18 @@ body {
      margin-top:71px;
  }
  
+ @media screen and (max-width: 960px) {
+     .middle-sect{
+         display: flex;
+         flex-wrap: wrap;
+    justify-content: center;
+    
+     }
+     
+      
+    }
+  
+  
 
 
 
